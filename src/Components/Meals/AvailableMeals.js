@@ -25,7 +25,7 @@ const DUMMY_MEALS = [
     price: 18.99,
   },
 ];
-
+//Componente che contiene la lista e la printa 
 const AvailableMeals = () => {
   const mealslist = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
 

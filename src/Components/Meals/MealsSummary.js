@@ -1,5 +1,5 @@
 import classes from "./MealsSummary.module.css";
-
+//Componente che si occupa di printare la descrizione del cibo disponibile 
 const MealsSummery = () => {
   return (
     <section className={classes.summary}>
